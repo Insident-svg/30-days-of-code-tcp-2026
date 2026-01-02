@@ -7,3 +7,5 @@ Day 1:
 ![alt text](<Screenshot 2026-01-01 234434.png>) 
 ![alt text](<Screenshot 2026-01-01 234449.png>) 
 ![alt text](<Screenshot 2026-01-01 234504.png>)
+Day 2:
+![alt text](<Screenshot 2026-01-03 000322.png>)
