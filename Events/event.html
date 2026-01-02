@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Schedule</title>
+</head>
+<body>
+    <header>
+        <h1>Event Schedule and Registration</h1>
+    </header>
+    <main>
+        <section>
+            <table border="1">
+                <caption><h2>Upcoming Events</h2></caption>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Activity</th>
+                        <th>Venue</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10:00 AM</td>
+                        <td>Video Editing workshop</td>
+                        <td>Architecture Auditorium</td>
+                    </tr>
+                    <tr>
+                        <td>12:00 PM</td>
+                        <td>Coding workshop</td>
+                        <td>Heera Hall</td>
+                    </tr>
+                    <tr>
+                        <td>2:00 PM</td>
+                        <td>Sports Activities</td>
+                        <td>Sports Ground</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <form action="/register" method="post">
+                <fieldset>
+                    <legend><h2>Register for an Event</h2></legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="branch">Branch:</label>
+                    <select id="branch" name="branch" required>
+                        <option value="cse">Computer Science</option>
+                        <option value="ece">Electronics</option>
+                        <option value="mech">Mechanical</option>
+                        <option value="civil">Civil</option>
+                        <option value="chem">Chemical</option>
+                        <option value="bio">Biotechnology</option>
+                        <option value="ee">Electrical</option>
+                        <option value="it">Information Technology</option>
+                        <option value="mme">Metallurgical and Materials Engineering</option>
+                        <option value="mining">Mining</option>
+                        <option value="biomedical">Biomedical</option>
+                        <option value="mca">Master of Computer Applications</option>
+                    </select><br><br>
+
+                    <label for="semester">Semester:</label>
+                    <input type="number" id="semester" name="semester" required><br><br>
+
+                    <label for="date of registration">Date of Registration:</label>
+                    <input type="date" id="date of registration" name="date of registration" required><br><br>
+
+                    <legend>Ticket Type:</legend>
+                    <label><input type="radio" name="ticket" value="standard" required> Standard</label><br>
+                    <label><input type="radio" name="ticket" value="vip"> VIP</label><br>
+                    <label><input type="radio" name="ticket" value="student"> Student</label><br><br>
+
+                    <legend>Workshop Preferences:</legend>
+                    <label><input type="checkbox" name="workshop" value="video_editing"> Video Editing Workshop</label><br>
+                    <label><input type="checkbox" name="workshop" value="coding"> Coding Workshop</label><br>
+                    <label><input type="checkbox" name="workshop" value="sports"> Sports Activities</label><br><br>
+
+                    <textarea name="comments" rows="4" cols="50" placeholder="Additional Comments"></textarea><br><br>
+
+                    <button type="submit">Submit Registration</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Event Organizer</p>
+    </footer>
+</body>
+</html>
