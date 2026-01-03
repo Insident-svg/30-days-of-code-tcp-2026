@@ -10,5 +10,5 @@ Day 1:<br>
 Day 2:<br>
 ![alt text](<Screenshot 2026-01-03 000322.png>)<br>
 Day 3 :<br>
-[alt text](<Screenshot 2026-01-03 231128.png>)<br>
-[alt text](<Screenshot 2026-01-03 231107.png>) <br>[alt text](<Screenshot 2026-01-03 231115.png>)<br>
+![alt text](<Screenshot 2026-01-03 231128.png>)<br>
+![alt text](<Screenshot 2026-01-03 231107.png>) <br>![alt text](<Screenshot 2026-01-03 231115.png>)<br>
